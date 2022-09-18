@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input {
+  padding: 50px;
+}
+
+.cardHolder {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 300px;
+  height: 300px;
+}
+
+.cardPizza1 {
+  background-image: url(/Pizza1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cardPizza2 {
+  background-image: url(/pizza2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cardPizza3 {
+  background-image: url(/pizza3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cardPizza4 {
+  background-image: url(/pizza4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cardPizza5 {
+  background-image: url(/pizza5.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cardPizza6 {
+  background-image: url(/pizza6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+#button {
+    font-size: larger;
+    border-radius: 10px;
+    background-color: black;
+    border: 0px solid black;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    color: #fafafa;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+   padding: 10px;
+  }
+
+  #inputNumber {
+    width: 200px;
+  padding: 3px 5px;
+  outline: none;
+  border: 2px solid rgb(77, 75, 75);
+  border-radius: 6px;
+  background-color: rgba(235, 235, 235, 0.6);
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  }
+  
